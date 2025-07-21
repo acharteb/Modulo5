@@ -10,7 +10,7 @@ Esta es una aplicación web simple que muestra la arquitectura cliente-servidor.
 * **Frontend**: HTML5, CSS3, JavaScript
 * **API**: RESTful
 * **Comunicación**: `fetch()` API
-* **Persistencia de datos**: Sistema de archivos (`fs` module) con formato JSON.
+* **Persistencia de datos**: Sistema de archivo (`fs` module) con formato JSON.
 
 ## Estructura de carpetas
 
