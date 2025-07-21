@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modulo V | Alfredo Charte</title>
+    <style>
+        body { font-family: sans-serif; max-width: 600px; margin: 40px auto; padding: 20px; line-height: 1.6; }
+        form { display: flex; flex-direction: column; gap: 10px; margin-bottom: 20px; }
+        input { padding: 8px; }
+        button { padding: 10px; cursor: pointer; background-color: #007bff; color: white; border: none; }
+        #response-message { padding: 10px; background-color: #eaf7ea; border: 1px solid #c7e8c7; margin-bottom: 20px; }
+        #error-message { padding: 10px; background-color: #f8d7da; border: 1px solid #f5c6cb; color: #721c24; margin-bottom: 20px; }
+        .hidden { display: none; }
+        ul { list-style-type: none; padding: 0; }
+        li { background-color: #f1f1f1; padding: 10px; margin-bottom: 5px; border-left: 4px solid #007bff; }
+    </style>
+</head>
+<body>
+
+    <h1>Registro de Usuarios</h1>
+
+    <form id="user-form">
+        <input type="text" id="nombre" placeholder="Nombre completo" required>
+        <input type="number" id="edad" placeholder="Edad" min="1" required>
+        <input type="text" id="ciudad" placeholder="Ciudad" required>
+        <button type="submit">Registrar</button>
+    </form>
+
+    <div id="response-message" class="hidden"></div>
+    <div id="error-message" class="hidden"></div>
+
+    <h2>Historial de Registros</h2>
+    <ul id="history-list">
+        </ul>
+
+    <script src="main.js"></script>
+</body>
+</html>

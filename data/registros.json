@@ -1,0 +1,26 @@
+[
+  {
+    "nombre": "Alfredo",
+    "edad": 10,
+    "ciudad": "caracas",
+    "timestamp": "2025-07-21T23:07:22.464Z"
+  },
+  {
+    "nombre": "Ana",
+    "edad": 15,
+    "ciudad": "Maracaibo",
+    "timestamp": "2025-07-21T23:07:56.261Z"
+  },
+  {
+    "nombre": "Ricardo",
+    "edad": 20,
+    "ciudad": "Maracay",
+    "timestamp": "2025-07-21T23:09:28.970Z"
+  },
+  {
+    "nombre": "Mildre Coromoto",
+    "edad": 30,
+    "ciudad": "Valencia",
+    "timestamp": "2025-07-21T23:14:57.656Z"
+  }
+]
